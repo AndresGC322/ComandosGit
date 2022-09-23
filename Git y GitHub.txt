@@ -1,0 +1,12 @@
+	GIT
+
+Git es un sistema de control de versiones de código abierto ideado por Linus Torvalds 
+(el padre del sistema operativo Linux) y actualmente es el sistema de control de versiones 
+más extendido. A diferencia de otros SCV Git tiene una arquitectura distribuida lo que 
+significa que en lugar de guardar todos los cambios de un proyecto en un único sitio, 
+cada usuario contiene una copia del repositorio con el historial de cambios completo del 
+proyecto, esto aumenta significativamente su rendimiento.
+
+	GITHUB	
+Se puede considerar como red social, donde se suben proyectos, historias, datos compartidos,
+seguimiento a codigos y conocer que hacen las personas con mis proyectos cuando los ven o usan.

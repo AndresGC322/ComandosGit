@@ -1,0 +1,35 @@
+	COMANDOS PARA CONFIGURACION DE GIT
+
+git config --global user.name "Nombre Completo"
+{ se usa para configurar el nombre en Git Bash }
+
+git config --global user.email "email@example.com"
+{ se usa para sincronizar el correo en la cuenta de git para subir archivos }
+
+git config --global -e
+{ se usa para ver los datos de configuracion de Git Bash }
+
+	COMANDOS PARA SUBIR ARCHIVOS
+git init
+{ una vez se esta ubicado en una direccion de carpeta, se añarida la carpeta .git para sincronizar datos con el repositorio en GitHub }
+
+git add .
+{ el comando add añade de manera local archivos para subir a la base, con el comando . se añaden todos los que estan en la ubicacion }
+
+git add <nombreArchivo>
+{ dentro de <> se pone el nombre de un archivo, en caso de que solo sea necesario subir 1 }
+
+git commit -m 'El mensaje que describe los cambios'
+{ el comando es unicamente para informacion, no accion y es para conocer el estado de la carpeta con relacion a la cuenta }
+
+git status
+{ muestra una lista de archivos con los cambios registrados (si estan dentro del commit o van a entrar a un commit) }
+
+git remote add origin <URL repositorio>
+{ vincula la carpeta seleccionada a la cuenta, haciendo un puente para subir archivos y cambios }
+
+git push origin <Raman main>
+{ sube los cambios de la carpeta sincronizada }
+
+git pull origin <Raman main>
+{ baja los datos de la nube al ordenador en la carpeta seleccionada }
