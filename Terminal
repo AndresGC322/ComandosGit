@@ -1,0 +1,33 @@
+TERMINAL DE LINUX
+pwd
+{ muestra la ubicacion en donde me encuentro (carpetas) }
+
+ls
+{ permite ver que elementos hay dentro de mi ubicacion actual (solo nombres y tipos) }
+
+ls -la
+{ permite ver a detalle que permisos tienen los recursos de la ubicacion }
+
+clear
+{ limpia el historial en pantalla pero no salta los comandos ya escritos }
+
+mkdir
+{ crea un nuevo directorio }
+
+rm -rf
+{ elimina forzosamente un archivo o recurso (sin dejarlo en la papelera) }
+
+cd
+{ permite dirigirse a una carpeta en especifico (se puede escribir o arrastrar la carpeta en la terminal) }
+
+cd .. 
+{ devuelve la ubicacion a la ruta o carpeta anterior }
+
+touch <NombreNuevoArchivo>
+{ crea cualquier archivo de cualquier tipo menos carpeta }
+
+nano <NombreNuevoArchivo>
+{ crea un archivo nuevo }
+
+cat <NombreNuevoArchivo>
+{ muestra los datos de un archivo }
