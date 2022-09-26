@@ -33,8 +33,6 @@ Si te pareció bonita la imagen, puedes verla desde su pagina oficial [->aquí<-
     console.log("Esto se ha mostrado"+i+"vez o veces")
     }
   ```
-  De lo anterior se puede deducir que: <br>
-  [x] Es un bucle de JavaScript <br>
- 
+
  **Este es el final, pero puedes buscar más información [dando click aquí](https://www.markdownguide.org/basic-syntax/)**
   
